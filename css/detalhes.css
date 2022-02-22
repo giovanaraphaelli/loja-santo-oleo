@@ -1,0 +1,29 @@
+.detalhes {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+}
+
+.detalhes h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333333;
+  padding-bottom: 25px;
+}
+
+.detalhes p,
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.detalhes p {
+  padding-bottom: 25px;
+}
+
+.detalhes li {
+  padding-bottom: 5px;
+}
