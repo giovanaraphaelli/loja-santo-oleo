@@ -47,12 +47,6 @@ hr {
   color: #ffffff;
 }
 
-btn-opcao:focus {
-  background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%) 0%
-    0% no-repeat padding-box;
-  color: #ffffff;
-}
-
 .valores {
   background-color: #ffffff;
   padding: 20px;
@@ -108,18 +102,22 @@ btn-opcao:focus {
   margin-bottom: 25px;
 }
 
-.final input {
+.final .qtd {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-width: 200px;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.875rem;
-  text-align: center;
+  align-items: center;
+  justify-items: center;
   border: 1px solid #eeeeee;
   border-radius: 50px;
 }
 
-.final input:focus {
-  box-shadow: 0 0 0 0;
-  outline: 0;
+.final span {
+  cursor: pointer;
 }
 
 .final button {
