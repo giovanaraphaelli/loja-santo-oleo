@@ -20,11 +20,12 @@
 }
 
 .box-min img {
-  height: 100px;
+  max-height: 100px;
   margin: 20px;
   border: 2px solid #ffffff;
   border-radius: 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .box-min img:hover {
@@ -32,14 +33,7 @@
 }
 
 #rolagem {
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
   margin: 0 auto;
-}
-
-#rolagem img {
-  height: max-content;
 }
 
 @media (max-width: 1000px) {
