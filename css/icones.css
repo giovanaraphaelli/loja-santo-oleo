@@ -30,3 +30,20 @@
 .icon-tipo:nth-child(4) {
   border-right: 0;
 }
+
+@media (max-width: 650px) {
+  .icones {
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+  }
+
+  .icon-tipo {
+    font-size: 1rem;
+    border-right: none;
+    gap: 0px;
+  }
+
+  .icon-tipo img {
+    max-height: 40px;
+  }
+}

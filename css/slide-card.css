@@ -117,3 +117,36 @@ img {
 #left img {
   transform: rotate(180deg);
 }
+
+@media (max-width: 800px) {
+  .arrow {
+    display: none;
+  }
+
+  .wrapper-card {
+    transform: translateX(0px);
+  }
+
+  .container-card {
+    max-width: 300px;
+    padding: 25px;
+    overflow-x: scroll;
+  }
+
+  .container-card::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .container-card::-webkit-scrollbar-thumb {
+    background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%);
+    border-radius: 10px;
+  }
+
+  .slide-header {
+    flex-direction: column;
+  }
+
+  .slide-header h2 {
+    padding-bottom: 15px;
+  }
+}

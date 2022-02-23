@@ -36,5 +36,33 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1000px) {
+#rolagem::-webkit-scrollbar {
+  height: 10px;
+}
+
+#rolagem::-webkit-scrollbar-thumb {
+  background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%);
+  border-radius: 10px;
+}
+
+#imagem-principal2 {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  #rolagem {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  #imagem-principal2 {
+    display: initial;
+  }
+
+  .box-min {
+    display: none;
+  }
+  .galeria {
+    padding-top: 25px;
+  }
 }

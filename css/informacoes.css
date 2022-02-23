@@ -195,3 +195,17 @@ hr {
   border-radius: 50px;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .informacoes {
+    padding-left: 0px;
+  }
+
+  .informacoes h1 {
+    padding-top: 25px;
+  }
+
+  .frete {
+    margin-bottom: 25px;
+  }
+}
