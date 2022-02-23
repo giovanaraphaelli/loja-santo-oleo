@@ -47,6 +47,12 @@ hr {
   color: #ffffff;
 }
 
+btn-opcao:focus {
+  background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+}
+
 .valores {
   background-color: #ffffff;
   padding: 20px;
