@@ -41,3 +41,10 @@ img {
   max-height: 370px;
   object-fit: cover;
 }
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}

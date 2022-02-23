@@ -41,3 +41,6 @@
 #rolagem img {
   height: max-content;
 }
+
+@media (max-width: 1000px) {
+}
