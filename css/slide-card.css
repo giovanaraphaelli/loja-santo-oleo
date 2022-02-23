@@ -1,0 +1,97 @@
+.slide-card {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+}
+
+.slide-header {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.slide-header h2 {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.slide-avaliacao {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.slide-avaliacao span,
+img {
+  margin-right: 10px;
+}
+
+.slide-avaliacao span {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container-card {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.wrapper-card {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 auto;
+}
+.card {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  padding: 25px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.card p {
+  font-family: "Roboto", sans-serif;
+  min-height: 100px;
+  color: #333333;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.card > span {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.card-star {
+  display: flex;
+}
+
+.card-star {
+  width: 20px;
+}
+
+.rigth img {
+  transform: rotate(180deg);
+}

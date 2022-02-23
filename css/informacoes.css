@@ -67,7 +67,7 @@ hr {
   left: 120px;
   padding: 2px 10px;
   border: 1px solid #333333;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .valores-preco {
   font-family: "Roboto", sans-serif;
@@ -149,6 +149,7 @@ hr {
   gap: 10px;
   grid-template-columns: 1fr 1fr;
   position: relative;
+  border-radius: 5px;
 }
 
 .frete > h3 {
