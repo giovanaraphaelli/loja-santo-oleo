@@ -65,4 +65,9 @@
   .galeria {
     padding-top: 25px;
   }
+
+  .galeria::before {
+
+    right: 25px;
+    top: 40px;
 }
