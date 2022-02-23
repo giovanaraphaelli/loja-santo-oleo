@@ -4,11 +4,11 @@
 }
 
 .slide-header {
-  display: flex;
-  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1030px;
   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+  align-items: ;
   margin-bottom: 25px;
 }
 
@@ -21,6 +21,7 @@
 
 .slide-avaliacao {
   display: flex;
+  justify-content: flex-end;
   flex-flow: row nowrap;
 }
 
@@ -143,7 +144,7 @@ img {
   }
 
   .slide-header {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .slide-header h2 {
