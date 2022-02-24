@@ -84,7 +84,7 @@ btnSoma.addEventListener("click", function () {
 
   atualizaPreco();
 });
-let teste;
+
 btnMenos.addEventListener("click", function () {
   if (qtd > 1) qtd -= 1;
 

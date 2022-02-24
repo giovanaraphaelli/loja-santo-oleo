@@ -55,18 +55,19 @@ hr {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 5px;
-  position: relative;
+  /* position: relative; */
 }
 #promo {
   font-weight: 700;
-  position: absolute;
-  left: 120px;
+  /* position: absolute;
+  left: 135px; */
+  max-width: 30px;
+  max-height: 20px;
   padding: 2px 10px;
   border: 1px solid var(--cor5);
   border-radius: 50px;
 }
-.valores-preco,
-.real {
+.valores-preco {
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--cor5);
