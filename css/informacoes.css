@@ -57,8 +57,7 @@ hr {
   gap: 5px;
   position: relative;
 }
-
-.valores-opcao span {
+#promo {
   font-weight: 700;
   position: absolute;
   left: 120px;
