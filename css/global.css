@@ -84,6 +84,6 @@ button {
   }
 
   .banner img {
-    max-height: 370px;
+    min-height: 500px;
   }
 }
