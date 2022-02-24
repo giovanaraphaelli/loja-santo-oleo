@@ -87,6 +87,7 @@ button {
   }
 
   .banner img {
+    width: none;
     min-height: 540px;
   }
   #b1 {
