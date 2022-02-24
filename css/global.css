@@ -66,6 +66,9 @@ img {
   max-height: 370px;
   object-fit: cover;
 }
+#b2 {
+  display: none;
+}
 
 button {
   border: none;
@@ -84,6 +87,13 @@ button {
   }
 
   .banner img {
-    min-height: 500px;
+    min-height: 540px;
+  }
+  #b1 {
+    display: none;
+  }
+
+  #b2 {
+    display: initial;
   }
 }
