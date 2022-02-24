@@ -63,7 +63,7 @@ img {
 
 .banner img {
   width: 100%;
-  max-height: 370px;
+  max-height: 460px;
   object-fit: cover;
 }
 #b2 {
@@ -88,7 +88,7 @@ button {
 
   .banner img {
     width: none;
-    min-height: 540px;
+    min-height: 400px;
   }
   #b1 {
     display: none;
