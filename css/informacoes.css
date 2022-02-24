@@ -1,21 +1,20 @@
 .informacoes h1 {
   font-family: "Raleway", sans-serif;
   font-size: 1.625rem;
-  color: #333333;
+  color: var(--cor5);
 }
 
 hr {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid var(--cor6);
 }
 .informacoes {
   padding-left: 50px;
 }
 
 .informacoes > p {
-  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  color: #333333;
+  color: var(--cor5);
   margin: 25px 0;
 }
 
@@ -27,28 +26,27 @@ hr {
 
 .btn-opcao {
   box-sizing: border-box;
-  color: #999999;
-  font-family: "Roboto", sans-serif;
+  color: var(--cor7);
   font-size: 1.125rem;
   font-weight: 400;
   margin-left: 5px;
   margin-bottom: 25px;
   padding: 10px 20px;
   border-radius: 50px;
-  border: 1px solid #dddddd;
-  background-color: #ffffff;
+  border: 1px solid var(--cor6);
+  background-color: var(--cor4);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .btn-opcao:hover {
-  background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%) 0%
-    0% no-repeat padding-box;
-  color: #ffffff;
+  background: transparent linear-gradient(270deg, var(--cor2) 0%, #89c993 100%)
+    0% 0% no-repeat padding-box;
+  color: var(--cor4);
 }
 
 .valores {
-  background-color: #ffffff;
+  background-color: var(--cor4);
   padding: 20px;
   margin-bottom: 25px;
 }
@@ -61,26 +59,23 @@ hr {
 }
 
 .valores-opcao span {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   position: absolute;
   left: 120px;
   padding: 2px 10px;
-  border: 1px solid #333333;
+  border: 1px solid var(--cor5);
   border-radius: 50px;
 }
 .valores-preco {
-  font-family: "Roboto", sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #333333;
+  color: var(--cor5);
 }
 
 .valores-preco2 {
-  font-family: "Roboto", sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #999999;
+  color: var(--cor7);
   text-decoration: line-through;
 }
 
@@ -89,10 +84,9 @@ hr {
 }
 
 .valores-descricao {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.85rem;
-  color: #666666;
+  color: var(--cor9);
 }
 
 .final {
@@ -105,8 +99,7 @@ hr {
 .final .qtd {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--cor4);
   font-weight: 400;
   font-size: 1.875rem;
   align-items: center;
@@ -122,25 +115,23 @@ hr {
 .final button {
   grid-column: 2/4;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 50px;
-  border: 1px solid #dddddd;
+  border: 1px solid var(--cor6);
   background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%) 0%
     0% no-repeat padding-box;
-  color: #ffffff;
+  color: var(--cor4);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .informacoes > a {
-  font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
   font-weight: 400;
-  color: #4ca871;
+  color: var(--cor10);
   text-decoration: underline;
   display: block;
   margin: 25px;
@@ -148,7 +139,7 @@ hr {
 
 .frete {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--cor4);
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr;
@@ -156,41 +147,37 @@ hr {
   border-radius: 5px;
 }
 
-.frete > h3 {
-  font-family: "Roboto", sans-serif;
+.frete > h2 {
   font-size: 1rem;
   font-weight: 700;
-  color: #333333;
+  color: var(--cor5);
   text-transform: uppercase;
   grid-column: 1/2;
 }
 
 .frete > a {
-  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #999999;
+  color: var(--cor7);
   text-decoration: underline;
   text-align: end;
 }
 
 #cep {
-  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #999999;
+  color: var(--cor7);
   grid-column: 1/-1;
   padding: 10px 20px;
-  border: 1px solid #999999;
+  border: 1px solid var(--cor7);
   border-radius: 50px;
 }
 #calcular {
-  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #333333;
+  color: var(--cor4);
+  background-color: var(--cor5);
   padding: 10px 30px;
   position: absolute;
   right: 20px;
@@ -212,3 +199,4 @@ hr {
   .frete {
     margin-bottom: 25px;
   }
+}

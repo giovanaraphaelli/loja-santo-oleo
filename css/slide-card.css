@@ -8,13 +8,12 @@
   grid-template-columns: 1fr 1fr;
   max-width: 1030px;
   margin: 0 auto;
-  align-items: ;
   margin-bottom: 25px;
 }
 
 .slide-header h2 {
   font-family: "Raleway", sans-serif;
-  color: #333333;
+  color: var(--cor5);
   font-size: 1.75rem;
   font-weight: 600;
 }
@@ -31,8 +30,7 @@ img {
 }
 
 .slide-avaliacao span {
-  font-family: "Roboto", sans-serif;
-  color: #333333;
+  color: var(--cor5);
   font-size: 1rem;
   font-weight: 300;
 }
@@ -52,7 +50,7 @@ img {
   transition: transform 100ms ease-in-out;
 }
 .card {
-  background-color: #ffffff;
+  background-color: var(--cor4);
   width: 300px;
   display: grid;
   grid-template-columns: 1fr;
@@ -63,24 +61,21 @@ img {
 }
 
 .card h2 {
-  font-family: "Roboto", sans-serif;
-  color: #333333;
+  color: var(--cor5);
   font-size: 1.875rem;
   font-weight: 700;
 }
 
 .card p {
-  font-family: "Roboto", sans-serif;
   min-height: 100px;
-  color: #333333;
+  color: var(--cor5);
   font-size: 1.125rem;
   line-height: 1.5;
   font-weight: 400;
 }
 
 .card > span {
-  font-family: "Roboto", sans-serif;
-  color: #333333;
+  color: var(--cor5);
   font-size: 1rem;
   font-weight: 300;
 }
@@ -141,7 +136,8 @@ img {
   }
 
   .container-card::-webkit-scrollbar-thumb {
-    background: transparent linear-gradient(270deg, #80d6b5 0%, #89c993 100%);
+    background: transparent
+      linear-gradient(270deg, var(--cor2) 0%, var(--cor3) 100%);
     border-radius: 10px;
   }
 
@@ -160,7 +156,7 @@ img {
   }
 
   .card {
-    width: 260px;
+    width: 280px;
   }
 }
 

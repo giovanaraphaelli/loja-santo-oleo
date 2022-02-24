@@ -1,6 +1,20 @@
+:root {
+  --cor1: #f5f5f5;
+  --cor2: #80d6b5;
+  --cor3: #89c993;
+  --cor4: #ffffff;
+  --cor5: #333333;
+  --cor6: #dddddd;
+  --cor7: #999999;
+  --cor8: #f4c960;
+  --cor9: #666666;
+  --cor10: #4ca871;
+}
+
 body {
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: var(--cor1);
+  font-family: "Roboto", sans-serif;
 }
 
 ul,

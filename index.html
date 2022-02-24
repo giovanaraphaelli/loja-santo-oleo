@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,8 +23,8 @@
                 <img id="imagem-principal2" src="img/Grupo 258@2x-black.png" alt="">
             </div>
             <div class="box-min">
-                <a id="img1"><img src="/img/Imagem 23.png" alt=""></a>
-                <a id="img2"><img src="/img/min-black.png" alt=""></a>
+                <a id="img1"><img src="/img/Imagem 23.png" alt="Pote de vidro de oleo de coco"></a>
+                <a id="img2"><img src="/img/min-black.png" alt="Pote de vidro de oleo de coco em preto e branco"></a>
             </div>
         </div>
 
@@ -66,34 +65,34 @@
             <a href="">Quer comprar em grandes quantidades? temos um desconto especial!!</a>
 
             <div class="frete">
-                <h3>Calcule o Frete</h3>
+                <h2>Calcule o Frete</h2>
                 <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank">Não sei o meu CEP</a>
                 <input name="cep" id="cep" placeholder="Insira o CEP aqui" />
-                <input id="calcular" type="submit" value="calcular" />
+                <button id="calcular" type="submit" value="calcular">Calcular</button>
 
             </div>
         </div>
     </main>
 
     <div class="bg-icones">
-        <div class="icones">
-            <div class="icon-tipo">
+        <ul class="icones">
+            <li class="icon-tipo">
                 <img src="img/gluten-free.svg" alt="">
                 <span>Sem Glúten</span>
-            </div>
-            <div class="icon-tipo">
+            </li>
+            <li class="icon-tipo">
                 <img src="img/002-plant-based.svg" alt="">
                 <span>Orgânico</span>
-            </div>
-            <div class="icon-tipo">
+            </li>
+            <li class="icon-tipo">
                 <img src="img/Grupo 21.svg" alt="">
                 <span>Low Carb</span>
-            </div>
-            <div class="icon-tipo">
+            </li>
+            <li class="icon-tipo">
                 <img src="img/Grupo 22.svg" alt="">
                 <span>Sem Lactose</span>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 
     <div class="banner">
@@ -113,7 +112,7 @@
         </ul>
     </article>
 
-    <div class="slide-card">
+    <article class="slide-card">
         <div class="slide-header">
             <h2>Opinião de quem comprou</h2>
             <div class="slide-avaliacao">
@@ -127,14 +126,13 @@
         </div>
 
         <div class="container-card">
-            <button class="arrow" id="left">
-                <span>Voltar</span>
+            <button class="arrow" id="left" aria-label="Voltar">
                 <img src="/img/Icon feather-arrow-left-circle.svg" alt="">
             </button>
 
-            <div class="wrapper-card">
+            <ul class="wrapper-card">
 
-                <div class="card">
+                <li class="card">
                     <h2>Joelma Campanhol</h2>
                     <div class="card-star">
                         <img src="img/Icon feather-star.svg" alt="">
@@ -145,8 +143,8 @@
                     </div>
                     <p>"Acabei de comprar ansiosa que chegue logo aliás estou viciada na Ingredientes Online tudo maravilhoso "</p>
                     <span>24/12/2020</span>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <h2>Kelly</h2>
                     <div class="card-star">
                         <img src="img/Icon feather-star.svg" alt="">
@@ -157,8 +155,8 @@
                     </div>
                     <p>"Maravilhoso! sem dúvidas, o melhor do mercado. sem retrogosto e dissolve facilmente."</p>
                     <span>20/01/2021</span>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <h2>Luca Chaves</h2>
                     <div class="card-star">
                         <img src="img/Icon feather-star.svg" alt="">
@@ -169,9 +167,9 @@
                     </div>
                     <p>"Produto ótimo na semana já sente-se os resultados."</p>
                     <span>24/12/2020</span>
-                </div>
+                </li>
 
-                <div class="card">
+                <li class="card">
                     <h2>Joelma Campanhol</h2>
                     <div class="card-star">
                         <img src="img/Icon feather-star.svg" alt="">
@@ -182,8 +180,8 @@
                     </div>
                     <p>"Acabei de comprar ansiosa que chegue logo aliás estou viciada na Ingredientes Online tudo maravilhoso "</p>
                     <span>24/12/2020</span>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <h2>Kelly</h2>
                     <div class="card-star">
                         <img src="img/Icon feather-star.svg" alt="">
@@ -194,8 +192,8 @@
                     </div>
                     <p>"Maravilhoso! sem dúvidas, o melhor do mercado. sem retrogosto e dissolve facilmente."</p>
                     <span>20/01/2021</span>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <h2>Luca Chaves</h2>
                     <div class="card-star">
                         <img src="img/Icon feather-star.svg" alt="">
@@ -206,17 +204,16 @@
                     </div>
                     <p>"Produto ótimo na semana já sente-se os resultados."</p>
                     <span>24/12/2020</span>
-                </div>
+                </li>
 
-            </div>
-            <button class="arrow" id="right">
-                <span>Avançar</span>
+            </ul>
+            <button class="arrow" id="right" aria-label="Avançar">
                 <img src="img/Icon feather-arrow-left-circle.svg" alt="">
             </button>
 
         </div>
 
-    </div>
+    </article>
     <script src="js/soma-subtrai.js"></script>
     <script src="js/altera-valor.js"></script>
     <script src="js/galeria.js"></script>
