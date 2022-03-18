@@ -2,7 +2,7 @@
   background-color: var(--cor1);
   max-width: 1300px;
   margin: 0px auto;
-  padding: 40px;
+  padding: 40px 140px;
 }
 
 .detalhes h2 {
@@ -26,4 +26,10 @@ li {
 
 .detalhes li {
   padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .detalhes {
+    padding: 40px;
+  }
 }

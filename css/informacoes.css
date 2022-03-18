@@ -201,4 +201,12 @@ hr {
   .frete {
     margin-bottom: 25px;
   }
+
+  .btn-opcao {
+    margin-bottom: 5px;
+  }
+
+  #cep {
+    font-size: 0.85rem;
+  }
 }

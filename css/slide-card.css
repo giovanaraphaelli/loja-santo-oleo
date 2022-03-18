@@ -40,7 +40,7 @@ img {
 .container-card {
   display: flex;
   align-items: center;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -129,7 +129,7 @@ img {
 
   .container-card {
     max-width: 600px;
-    padding: 25px;
+    padding: 25px 5px;
     overflow-x: scroll;
   }
 
@@ -153,21 +153,32 @@ img {
 }
 
 @media (max-width: 600px) {
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+  .card spam {
+    font-size: 1rem;
+  }
   .container-card {
-    max-width: 300px;
+    max-width: 350px;
   }
 
   .card {
-    width: 280px;
+    max-width: 280px;
+    gap: 10px;
   }
 }
 
 @media (max-width: 450px) {
   .container-card {
-    max-width: 250px;
+    max-width: 280px;
   }
 
   .card {
-    width: 200px;
+    max-width: 240px;
   }
 }
