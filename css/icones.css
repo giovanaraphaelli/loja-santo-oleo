@@ -1,4 +1,6 @@
 .bg-icones {
+  max-width: 1300px;
+  margin: 0 auto;
   background: transparent
     linear-gradient(270deg, var(--cor2) 0%, var(--cor3) 100%) 0% 0% no-repeat;
 }
