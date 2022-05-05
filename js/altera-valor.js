@@ -98,3 +98,16 @@ function atualizaPreco() {
   p3atual.innerHTML = `R$ ${(qtd * calculaMl("preco3")).toFixed(2)}`;
   p4atual.innerHTML = `${(qtd * calculaMl("preco4")).toFixed(2)}`;
 }
+
+const btnOpcao = document.querySelectorAll(".btn-opcao");
+
+function handleBtn(event) {
+  btnOpcao.forEach((link) => {
+    link.classList.remove("btn-ativo");
+  });
+  event.currentTarget.classList.add("btn-ativo");
+}
+
+btnOpcao.forEach((link) => {
+  link.addEventListener("click", handleBtn);
+});
