@@ -39,7 +39,6 @@ hr {
   cursor: pointer;
 }
 
-.btn-opcao:hover,
 .btn-ativo {
   background: transparent linear-gradient(270deg, var(--cor2) 0%, #89c993 100%)
     0% 0% no-repeat padding-box;
